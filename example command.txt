@@ -1,0 +1,13 @@
+declare guessNumber
+print "Please guess a number between 1-5, enter it below" has_user_input
+next print "you have typed: {userInput}"
+next generate random number between 1-5 and refer as randomVar
+next if userInput is randomVar then (print "Congratulations, you have guessed it right") else (print "you are wrong, the number is {randomVar}")
+
+!testCommand
+use custom guessNumber
+
+
+!testCommand2
+set testVar as 10
+next keep (print "hello {testVar}" next increase testVar by 1) until testVar is 20
